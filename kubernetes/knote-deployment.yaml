@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: knote
-          image: learnk8s/knote-js:1.0.0
+          image: bastion.vuong.com.hpemsp.local:5000/myproject/knote-js:1.0.0   #learnk8s/knote-js:1.0.0
           ports:
             - containerPort: 3000
           env:
