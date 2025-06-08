@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - name: mongo
-          image: mongo:6.0.2-focal
+          image: bastion.vuong.com.hpemsp.local:5000/myproject/mongo:6.0.2-focal  #mongo:6.0.2-focal
           ports:
             - containerPort: 27017
